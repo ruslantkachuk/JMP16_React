@@ -1,0 +1,10 @@
+spring:
+  profiles.active: devmem
+---
+spring:
+  profiles: devmem
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: jmp
